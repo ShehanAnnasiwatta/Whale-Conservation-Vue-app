@@ -15,6 +15,8 @@ function handleSubmit() {
  showConfirmation.value = true;
  // Clear form fields
  name.value = '';
+ email.value = '';
+ message.value = '';
  // TODO: Add code to clear other form fields
 } 
 
@@ -37,5 +39,7 @@ function handleSubmit() {
 
             <button type="submit">Send Message</button>
         </form>
+        
+        <p v-show="showConfirmation">Message has been sent!</p>
     </section>
 </template>
