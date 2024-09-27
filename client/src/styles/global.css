@@ -1,3 +1,29 @@
+:root{
+    
+    --ff-primary: "Be Vietnam Pro", sans-serif;
+
+    --ff-heading:var(--ff-primary);
+    --ff-body:var(--ff-primary);
+    --ff-btn:var(--ff-primary);
+
+    --fs-primary-heading:2rem;
+    --fs-secondary-heading:1.5rem;
+    --fs-sub-heading-primary:1.25rem;
+    --fs-sub-heading-secondary:1.1755rem;
+    --fs-body:1rem
+
+    --fw-regular:400;
+    --fw-semi-bold:500;
+    --fw-bold:700;
+
+    --clr-primary:#083464;
+    --clr-secondary:#0096c7;
+
+    --btn-success-light:#30a444;
+    --btn-success-bold:#088404;
+    --btn-info:#0804fc;
+}
+
 /* Box sizing rules */
 *,
 *::before,
