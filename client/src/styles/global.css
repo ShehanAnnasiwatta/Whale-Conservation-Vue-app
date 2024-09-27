@@ -19,11 +19,15 @@
     --clr-primary: #083464;
     --clr-secondary: #01497c;
     --clr-ternary: #0077b6;
+    --clr-border:#48cae4;
+    --clr-body:#dee2e6;
     --clr-nuetral: #e8f4fc;
 
     --btn-success-light: #30a444;
     --btn-success-bold: #088404;
+    --btn-success-alert: #70e000;
     --btn-info: #0804fc;
+    --btn-info-hover: #03045e;
 }
 
 /* Box sizing rules */
@@ -62,6 +66,7 @@ body {
 body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    background-color: var(--clr-body);
 }
 
 /* A elements that don't have a class get default styles */
@@ -102,6 +107,7 @@ picture {
     margin: 1rem auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 0.6rem;
+    background-color: white;
 }
 
 .card-container p{
@@ -110,7 +116,7 @@ picture {
 }
 
 .item-border{
-    border-bottom: solid var(--clr-ternary); 
+    border-bottom: 3px solid var(--clr-border); 
 }
 
 .sub-heading-primary {

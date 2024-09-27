@@ -25,6 +25,7 @@
     bottom: 0;
     width: 100%;
     font-size: var(--fs-body);
+    font-family: var(--ff-body);
 }
 
 
