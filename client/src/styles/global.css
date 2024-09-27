@@ -10,7 +10,9 @@
     /* --fs-secondary-heading:1.5rem; */
     --fs-sub-heading-primary: 1.5rem;
     --fs-sub-heading-secondary: 1.175rem;
-    --fs-body: 1rem --fw-regular:400;
+    --fs-body: 1rem 
+
+    --fw-regular:400;
     --fw-semi-bold: 500;
     --fw-bold: 700;
 
@@ -29,11 +31,12 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    font-family: var(--ff-primary);
 }
 
 /* Remove default margin */
 * {
-    font-family: var(--ff-primary);
+    /* font-family: var(--ff-primary); */
     margin: 0;
     padding: 0;
     font: inherit;
@@ -96,9 +99,14 @@ picture {
     grid-template-columns: 1fr;
     max-width: 1440px;
     padding: 2rem 1.3rem 1.5rem;
-    margin-block: 0.8rem;
+    margin: 1rem auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 0.6rem;
+}
+
+.card-container p{
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
 }
 
 .item-border{
